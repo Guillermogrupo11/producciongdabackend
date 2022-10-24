@@ -1,8 +1,15 @@
 
 package com.backendportfolio.gda.Security.Controller;
 
+import com.backendportfolio.gda.Security.Dto.JwtDto;
+import com.backendportfolio.gda.Security.Dto.LoginUsuario;
+import com.backendportfolio.gda.Security.Dto.NuevoUsuario;
+import com.backendportfolio.gda.Security.Entity.Rol;
+import com.backendportfolio.gda.Security.Entity.Usuario;
+import com.backendportfolio.gda.Security.Enums.RolNombre;
 import com.backendportfolio.gda.Security.Service.RolService;
 import com.backendportfolio.gda.Security.Service.UsuarioService;
+import com.backendportfolio.gda.Security.jwt.JwtProvider;
 import java.util.HashSet;
 import java.util.Set;
 import javax.validation.Valid;
