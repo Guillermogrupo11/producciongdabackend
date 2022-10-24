@@ -1,7 +1,9 @@
 
 package com.backendportfolio.gda.Controller;
 
+import com.backendportfolio.gda.Dto.dtoEducacion;
 import com.backendportfolio.gda.Entity.Educacion;
+import com.backendportfolio.gda.Security.Controller.Mensaje;
 import com.backendportfolio.gda.Service.Seducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
