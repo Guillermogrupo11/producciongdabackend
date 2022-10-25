@@ -11,7 +11,7 @@
     <groupId>com.portfolio</groupId>
     <artifactId>gda</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gda.Produccion</name>
+    <name>gda.prod</name>
     <description>Portfolio de GDA</description>
     <properties>
         <java.version>1.8</java.version>
